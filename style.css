@@ -181,7 +181,8 @@ footer {
 .card {
   display: grid;
   grid-template-columns: repeat(21, 1fr);
-  /* grid-template-rows: 43px 59px 82px 63px; */
+  position: relative;
+  margin: 50px 0;
 }
 
 .card img {
@@ -190,7 +191,61 @@ footer {
 }
 
 .card-title {
-  grid-column: 2 / span 19;
-  background-color: pink;
-  height: 43px;
+  margin: 0 20px;
+  grid-column: 1 / span 21;
+  background-color: #f42;
+  color: white;
+  height: 44px;
+}
+
+.card-info {
+  max-width: 85%;
+  width: calc(100vw - 140px);
+  display: inline;
+  float: right;
+  padding: 10px 10px;
+}
+
+.funding-info {
+  margin: 0 20px;
+  grid-column: 1 / span 21;
+  background-color: rgba(255,68,34,.08);
+  height: 60px;
+  
+}
+
+.clear {
+  clear: both;
+}
+
+.fund-tags {
+  margin: 0 20px;
+  grid-column: 1 / span 21;
+  height: 85px;
+  padding: 10px 20px;
+  background-color: #fffaf8;
+}
+
+.fly {
+  position: absolute;
+  top: 10px;
+  width: 60px;
+  height: 60px;
+  left: -15px
+}
+.separate {
+
+  margin: 10px -20px;
+}
+
+.fund-intro ul li a{
+  text-decoration: none;
+  color: #f42;
+  line-height: 2rem;
+}
+
+.fund-intro ul {
+  list-style: none;
+  margin: 40px 10px;
+  padding: 0 10px;
 }
