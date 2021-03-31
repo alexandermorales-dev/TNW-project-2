@@ -66,7 +66,7 @@ header {
   display: inline;
 }
 
-.header-top-section span {
+.header-top-section section {
   display: flex;
   align-items: center;
 }
@@ -244,7 +244,6 @@ footer {
 
 .card-info {
   max-width: 85%;
-  width: calc(100vw - 140px);
   display: inline;
   float: right;
   padding: 10px 10px;
@@ -338,10 +337,11 @@ footer {
   .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
   }
 
   .card-info {
-    max-width: 65%;
+    min-width: 65%;
   }
 
   .fly {
