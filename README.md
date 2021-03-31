@@ -2,11 +2,11 @@
 
 # Project Name
 
-> Project 2: Building with Responsive Design - TNW Clone.
+> Responsive Web Design - Clone of TNW
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-This project is about cloning [this](https://thenextweb.com/) TNW web page by using RWD concept.
+In this project we have cloned [this](https://thenextweb.com/) TNW web page by using RWD concept. We have implemented HTML5 and CSS, making proper use of semantic tags in the HTML and Grid and Flexbox layout in the CSS.
 
 ## Built With
 
