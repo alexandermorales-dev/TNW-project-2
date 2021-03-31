@@ -6,7 +6,7 @@
 
 ![screenshot](./screenshot.png)
 
-In this project we have cloned [this](https://thenextweb.com/) TNW web page by using RWD concept. We have implemented HTML5 and CSS, making proper use of semantic tags in the HTML and Grid an Flexbox layout in the CSS.
+In this project we have cloned [this](https://thenextweb.com/) TNW web page by using RWD concept. We have implemented HTML5 and CSS, making proper use of semantic tags in the HTML and Grid and Flexbox layout in the CSS.
 
 ## Built With
 
