@@ -85,13 +85,13 @@
   }
 
   .card-img {
-    display: inline-block;
+    display: block;
     width: 270px;
     height: 130px;
   }
 
   .news-card {
-    margin: 0 auto;
+    margin: auto;
     display: inline;
     width: 270px;
     min-width: initial;
@@ -107,4 +107,8 @@
   .news-card-text p a {
     display: inline-block;
   }
+}
+
+.wtf {
+  display: none;
 }
