@@ -3,7 +3,7 @@
 }
 
 .news-section h2 a,
-.category h2 a{
+.category h2 a {
   color: #f42;
   text-decoration: none;
   font-weight: bold;
@@ -17,7 +17,7 @@
 }
 
 .card-img:nth-child(1) {
-  background-image: url('/assets/news-1.png');
+  background-image: url("/assets/news-1.png");
 }
 
 .news-card {
@@ -76,14 +76,13 @@
   color: white;
   width: 100%;
   padding-top: 75%;
-  position: relative; 
-  background-image: 
-  linear-gradient(
+  position: relative;
+  background-image: linear-gradient(
       to bottom,
       rgba(250, 249, 249, 0.1),
       rgb(0, 0, 0)
     ),
-  url("assets/category-head-image-1.jpg");
+    url("assets/category-head-image-1.jpg");
   background-position: 50%;
 }
 
@@ -95,16 +94,16 @@
 }
 
 .category-intro-text h6 a,
-.category-intro-text h6{
+.category-intro-text h6 {
   text-decoration: none;
   color: rgb(133, 133, 133);
   font-size: 12px;
 }
- 
+
 .category-intro-text h3 {
   font-size: 20px;
 }
- 
+
 .category-intro-text h5 {
   font-size: 14px;
   color: rgb(172, 172, 172);
@@ -137,29 +136,26 @@
 
 .category-highlight-img {
   background-image: url("assets/category-highlight-image-1.jpg");
-  /* background-position: 50%; */
   background-position: center;
   background-size: cover;
-
 }
 
-.category-lit ul li a{
+.category-lit ul li a {
   text-decoration: none;
   font-size: 13px;
   color: black;
-  
 }
 
-.category-lit ul{
+.category-lit ul {
   margin: 5px 0;
   list-style: none;
 }
 
 .category-lit ul li::before {
-  content: "\2022";  
-  color: #ff4422; 
-  font-weight: bold; 
-  display: inline-block; 
+  content: "\2022";
+  color: #ff4422;
+  font-weight: bold;
+  display: inline-block;
 }
 
 .category-lit ul li {
@@ -179,11 +175,10 @@
 
 @media only screen and (min-width: 768px) {
   .categories-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px 10px;
-  
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 10px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -212,8 +207,8 @@
   }
 
   .categories-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
- }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
 }
