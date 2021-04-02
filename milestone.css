@@ -9,6 +9,10 @@
   margin: 0 20px;
 }
 
+.news-card-text a {
+  font-size: 14px;
+}
+
 #news-card-container h3 a {
   text-decoration: none;
   color: black;
@@ -23,6 +27,7 @@
   color: #aaa;
   text-decoration: none;
 }
+
 .news-card {
   display: flex;
   min-width: 100%;
@@ -61,10 +66,6 @@
 
 .news-card-text h3 {
   margin-left: 5px;
-}
-
-.news-card-text a {
-  font-size: 14px;
 }
 
 @media only screen and (min-width: 768px) {
